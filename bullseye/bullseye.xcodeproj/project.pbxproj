@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8D0DEFC16114AB300E046C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D0DEFB16114AB300E046C0 /* UIKit.framework */; };
+		E8D0DEFE16114AB300E046C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D0DEFD16114AB300E046C0 /* Foundation.framework */; };
+		E8D0DF0016114AB300E046C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D0DEFF16114AB300E046C0 /* CoreGraphics.framework */; };
+		E8D0DF0616114AB300E046C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8D0DF0416114AB300E046C0 /* InfoPlist.strings */; };
+		E8D0DF0816114AB300E046C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0DF0716114AB300E046C0 /* main.m */; };
+		E8D0DF0C16114AB300E046C0 /* BullseyeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0DF0B16114AB300E046C0 /* BullseyeAppDelegate.m */; };
+		E8D0DF0F16114AB300E046C0 /* BullseyeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0DF0E16114AB300E046C0 /* BullseyeViewController.m */; };
+		E8D0DF1216114AB300E046C0 /* BullseyeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8D0DF1016114AB300E046C0 /* BullseyeViewController.xib */; };
+		E8D0DF1B1612970000E046C0 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0DF191612970000E046C0 /* AboutViewController.m */; };
+		E8D0DF1C1612970000E046C0 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8D0DF1A1612970000E046C0 /* AboutViewController.xib */; };
+		E8D0DF2B16129FEC00E046C0 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D0DF2216129FEC00E046C0 /* Background.png */; };
+		E8D0DF2C16129FEC00E046C0 /* Button-Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D0DF2316129FEC00E046C0 /* Button-Highlighted.png */; };
+		E8D0DF2D16129FEC00E046C0 /* Button-Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D0DF2416129FEC00E046C0 /* Button-Normal.png */; };
+		E8D0DF2E16129FEC00E046C0 /* SliderThumb-Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D0DF2516129FEC00E046C0 /* SliderThumb-Highlighted.png */; };
+		E8D0DF2F16129FEC00E046C0 /* SliderThumb-Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D0DF2616129FEC00E046C0 /* SliderThumb-Normal.png */; };
+		E8D0DF3016129FEC00E046C0 /* SliderTrackLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D0DF2716129FEC00E046C0 /* SliderTrackLeft.png */; };
+		E8D0DF3116129FEC00E046C0 /* SliderTrackRight.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D0DF2816129FEC00E046C0 /* SliderTrackRight.png */; };
+		E8D0DF3216129FEC00E046C0 /* StartOverButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D0DF2916129FEC00E046C0 /* StartOverButton.png */; };
+		E8D0DF3316129FEC00E046C0 /* StartOverIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D0DF2A16129FEC00E046C0 /* StartOverIcon.png */; };
+		E8D0DF3D1612AC3E00E046C0 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = E8D0DF3C1612AC3E00E046C0 /* BullsEye.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E8D0DEF716114AB300E046C0 /* bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D0DEFB16114AB300E046C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E8D0DEFD16114AB300E046C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E8D0DEFF16114AB300E046C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E8D0DF0316114AB300E046C0 /* bullseye-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bullseye-Info.plist"; sourceTree = "<group>"; };
+		E8D0DF0516114AB300E046C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E8D0DF0716114AB300E046C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8D0DF0916114AB300E046C0 /* bullseye-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bullseye-Prefix.pch"; sourceTree = "<group>"; };
+		E8D0DF0A16114AB300E046C0 /* BullseyeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BullseyeAppDelegate.h; sourceTree = "<group>"; };
+		E8D0DF0B16114AB300E046C0 /* BullseyeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullseyeAppDelegate.m; sourceTree = "<group>"; };
+		E8D0DF0D16114AB300E046C0 /* BullseyeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BullseyeViewController.h; sourceTree = "<group>"; };
+		E8D0DF0E16114AB300E046C0 /* BullseyeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullseyeViewController.m; sourceTree = "<group>"; };
+		E8D0DF1116114AB300E046C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BullseyeViewController.xib; sourceTree = "<group>"; };
+		E8D0DF181612970000E046C0 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		E8D0DF191612970000E046C0 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		E8D0DF1A1612970000E046C0 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		E8D0DF2216129FEC00E046C0 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		E8D0DF2316129FEC00E046C0 /* Button-Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Highlighted.png"; sourceTree = "<group>"; };
+		E8D0DF2416129FEC00E046C0 /* Button-Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Normal.png"; sourceTree = "<group>"; };
+		E8D0DF2516129FEC00E046C0 /* SliderThumb-Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderThumb-Highlighted.png"; sourceTree = "<group>"; };
+		E8D0DF2616129FEC00E046C0 /* SliderThumb-Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderThumb-Normal.png"; sourceTree = "<group>"; };
+		E8D0DF2716129FEC00E046C0 /* SliderTrackLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderTrackLeft.png; sourceTree = "<group>"; };
+		E8D0DF2816129FEC00E046C0 /* SliderTrackRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderTrackRight.png; sourceTree = "<group>"; };
+		E8D0DF2916129FEC00E046C0 /* StartOverButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartOverButton.png; sourceTree = "<group>"; };
+		E8D0DF2A16129FEC00E046C0 /* StartOverIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartOverIcon.png; sourceTree = "<group>"; };
+		E8D0DF3C1612AC3E00E046C0 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8D0DEF416114AB300E046C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D0DEFC16114AB300E046C0 /* UIKit.framework in Frameworks */,
+				E8D0DEFE16114AB300E046C0 /* Foundation.framework in Frameworks */,
+				E8D0DF0016114AB300E046C0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8D0DEEC16114AB300E046C0 = {
+			isa = PBXGroup;
+			children = (
+				E8D0DF3C1612AC3E00E046C0 /* BullsEye.html */,
+				E8D0DF2116129FEC00E046C0 /* Images */,
+				E8D0DF0116114AB300E046C0 /* bullseye */,
+				E8D0DEFA16114AB300E046C0 /* Frameworks */,
+				E8D0DEF816114AB300E046C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8D0DEF816114AB300E046C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0DEF716114AB300E046C0 /* bullseye.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8D0DEFA16114AB300E046C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0DEFB16114AB300E046C0 /* UIKit.framework */,
+				E8D0DEFD16114AB300E046C0 /* Foundation.framework */,
+				E8D0DEFF16114AB300E046C0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8D0DF0116114AB300E046C0 /* bullseye */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0DF0A16114AB300E046C0 /* BullseyeAppDelegate.h */,
+				E8D0DF0B16114AB300E046C0 /* BullseyeAppDelegate.m */,
+				E8D0DF0D16114AB300E046C0 /* BullseyeViewController.h */,
+				E8D0DF0E16114AB300E046C0 /* BullseyeViewController.m */,
+				E8D0DF1016114AB300E046C0 /* BullseyeViewController.xib */,
+				E8D0DF181612970000E046C0 /* AboutViewController.h */,
+				E8D0DF191612970000E046C0 /* AboutViewController.m */,
+				E8D0DF1A1612970000E046C0 /* AboutViewController.xib */,
+				E8D0DF0216114AB300E046C0 /* Supporting Files */,
+			);
+			path = bullseye;
+			sourceTree = "<group>";
+		};
+		E8D0DF0216114AB300E046C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0DF0316114AB300E046C0 /* bullseye-Info.plist */,
+				E8D0DF0416114AB300E046C0 /* InfoPlist.strings */,
+				E8D0DF0716114AB300E046C0 /* main.m */,
+				E8D0DF0916114AB300E046C0 /* bullseye-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8D0DF2116129FEC00E046C0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0DF2216129FEC00E046C0 /* Background.png */,
+				E8D0DF2316129FEC00E046C0 /* Button-Highlighted.png */,
+				E8D0DF2416129FEC00E046C0 /* Button-Normal.png */,
+				E8D0DF2516129FEC00E046C0 /* SliderThumb-Highlighted.png */,
+				E8D0DF2616129FEC00E046C0 /* SliderThumb-Normal.png */,
+				E8D0DF2716129FEC00E046C0 /* SliderTrackLeft.png */,
+				E8D0DF2816129FEC00E046C0 /* SliderTrackRight.png */,
+				E8D0DF2916129FEC00E046C0 /* StartOverButton.png */,
+				E8D0DF2A16129FEC00E046C0 /* StartOverIcon.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8D0DEF616114AB300E046C0 /* bullseye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8D0DF1516114AB300E046C0 /* Build configuration list for PBXNativeTarget "bullseye" */;
+			buildPhases = (
+				E8D0DEF316114AB300E046C0 /* Sources */,
+				E8D0DEF416114AB300E046C0 /* Frameworks */,
+				E8D0DEF516114AB300E046C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bullseye;
+			productName = bullseye;
+			productReference = E8D0DEF716114AB300E046C0 /* bullseye.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8D0DEEE16114AB300E046C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Bullseye;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Brett Rudloff";
+			};
+			buildConfigurationList = E8D0DEF116114AB300E046C0 /* Build configuration list for PBXProject "bullseye" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E8D0DEEC16114AB300E046C0;
+			productRefGroup = E8D0DEF816114AB300E046C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8D0DEF616114AB300E046C0 /* bullseye */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8D0DEF516114AB300E046C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D0DF0616114AB300E046C0 /* InfoPlist.strings in Resources */,
+				E8D0DF1216114AB300E046C0 /* BullseyeViewController.xib in Resources */,
+				E8D0DF1C1612970000E046C0 /* AboutViewController.xib in Resources */,
+				E8D0DF2B16129FEC00E046C0 /* Background.png in Resources */,
+				E8D0DF2C16129FEC00E046C0 /* Button-Highlighted.png in Resources */,
+				E8D0DF2D16129FEC00E046C0 /* Button-Normal.png in Resources */,
+				E8D0DF2E16129FEC00E046C0 /* SliderThumb-Highlighted.png in Resources */,
+				E8D0DF2F16129FEC00E046C0 /* SliderThumb-Normal.png in Resources */,
+				E8D0DF3016129FEC00E046C0 /* SliderTrackLeft.png in Resources */,
+				E8D0DF3116129FEC00E046C0 /* SliderTrackRight.png in Resources */,
+				E8D0DF3216129FEC00E046C0 /* StartOverButton.png in Resources */,
+				E8D0DF3316129FEC00E046C0 /* StartOverIcon.png in Resources */,
+				E8D0DF3D1612AC3E00E046C0 /* BullsEye.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8D0DEF316114AB300E046C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D0DF0816114AB300E046C0 /* main.m in Sources */,
+				E8D0DF0C16114AB300E046C0 /* BullseyeAppDelegate.m in Sources */,
+				E8D0DF0F16114AB300E046C0 /* BullseyeViewController.m in Sources */,
+				E8D0DF1B1612970000E046C0 /* AboutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E8D0DF0416114AB300E046C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8D0DF0516114AB300E046C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E8D0DF1016114AB300E046C0 /* BullseyeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8D0DF1116114AB300E046C0 /* en */,
+			);
+			name = BullseyeViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8D0DF1316114AB300E046C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E8D0DF1416114AB300E046C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8D0DF1616114AB300E046C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bullseye/bullseye-Prefix.pch";
+				INFOPLIST_FILE = "bullseye/bullseye-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E8D0DF1716114AB300E046C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bullseye/bullseye-Prefix.pch";
+				INFOPLIST_FILE = "bullseye/bullseye-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8D0DEF116114AB300E046C0 /* Build configuration list for PBXProject "bullseye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D0DF1316114AB300E046C0 /* Debug */,
+				E8D0DF1416114AB300E046C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8D0DF1516114AB300E046C0 /* Build configuration list for PBXNativeTarget "bullseye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D0DF1616114AB300E046C0 /* Debug */,
+				E8D0DF1716114AB300E046C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8D0DEEE16114AB300E046C0 /* Project object */;
+}
