@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+(); // object;
+
+<script src="jquery.js"></script>
+
+<script>
+
+// define handler function
+espnDataHandler = function(json){
+// handle the data in here.
+if ( json ){
+if ( json.headlines && json.headlines.length > 0 ){
+/* do more stuff, like loop through the contents, and update the dom. */
+// http://www.w3schools.com/js/js_loop_for.asp
+// grab the stuff you want, aka get data setup
+// text = headlineObj['headline'];
+// find the element you want to manipulate, and update the DOM.
+// use a jquery selector, find the element
+// http://api.jquery.com/category/selectors/
+// then manipulate the dom
+// http://api.jquery.com/category/manipulation/
+}
+}
+};
+
+// closure
+(function($){
+// so the param allows us to abbrev jQuery (full name in global namespace)
+// window
+// window.open
+// document.write('some html');
+var apiUri = 'http://api.espn.com/v1/sports/basketball/mens-college-basketball/news/?apikey=mvw8r6kh4vdwww37rfdanwsx'
+var obj = {
+url: apiUri,
+jsonpCallback: "espnDataHandler",
+dataType: 'jsonp'
+};
+// http://api.jquery.com/jQuery.ajax/
+$.ajax(obj);
+})(jQuery);
+
+</script>
+
+</head>
+<body>
+  <table class="headlines">
+    <tr>
+      <td>Headlines</td>
+      <td>Siena</td>
+    </tr>
+  </table>
+</body>
+</html>
