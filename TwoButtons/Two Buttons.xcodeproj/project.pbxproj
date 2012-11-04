@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C869663D164486EE00AA6219 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C869663C164486EE00AA6219 /* UIKit.framework */; };
+		C869663F164486EE00AA6219 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C869663E164486EE00AA6219 /* Foundation.framework */; };
+		C8696641164486EE00AA6219 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8696640164486EE00AA6219 /* CoreGraphics.framework */; };
+		C8696647164486EF00AA6219 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8696645164486EF00AA6219 /* InfoPlist.strings */; };
+		C8696649164486EF00AA6219 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8696648164486EF00AA6219 /* main.m */; };
+		C869664D164486EF00AA6219 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C869664C164486EF00AA6219 /* AppDelegate.m */; };
+		C8696650164486EF00AA6219 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C869664F164486EF00AA6219 /* ViewController.m */; };
+		C8696653164486EF00AA6219 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8696651164486EF00AA6219 /* ViewController_iPhone.xib */; };
+		C8696656164486EF00AA6219 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8696654164486EF00AA6219 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C8696638164486EE00AA6219 /* Two Buttons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Two Buttons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C869663C164486EE00AA6219 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C869663E164486EE00AA6219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C8696640164486EE00AA6219 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C8696644164486EE00AA6219 /* Two Buttons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Two Buttons-Info.plist"; sourceTree = "<group>"; };
+		C8696646164486EF00AA6219 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C8696648164486EF00AA6219 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C869664A164486EF00AA6219 /* Two Buttons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Two Buttons-Prefix.pch"; sourceTree = "<group>"; };
+		C869664B164486EF00AA6219 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C869664C164486EF00AA6219 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C869664E164486EF00AA6219 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C869664F164486EF00AA6219 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C8696652164486EF00AA6219 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		C8696655164486EF00AA6219 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8696635164486EE00AA6219 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C869663D164486EE00AA6219 /* UIKit.framework in Frameworks */,
+				C869663F164486EE00AA6219 /* Foundation.framework in Frameworks */,
+				C8696641164486EE00AA6219 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C869662D164486EE00AA6219 = {
+			isa = PBXGroup;
+			children = (
+				C8696642164486EE00AA6219 /* Two Buttons */,
+				C869663B164486EE00AA6219 /* Frameworks */,
+				C8696639164486EE00AA6219 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8696639164486EE00AA6219 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8696638164486EE00AA6219 /* Two Buttons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C869663B164486EE00AA6219 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C869663C164486EE00AA6219 /* UIKit.framework */,
+				C869663E164486EE00AA6219 /* Foundation.framework */,
+				C8696640164486EE00AA6219 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8696642164486EE00AA6219 /* Two Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				C869664B164486EF00AA6219 /* AppDelegate.h */,
+				C869664C164486EF00AA6219 /* AppDelegate.m */,
+				C869664E164486EF00AA6219 /* ViewController.h */,
+				C869664F164486EF00AA6219 /* ViewController.m */,
+				C8696651164486EF00AA6219 /* ViewController_iPhone.xib */,
+				C8696654164486EF00AA6219 /* ViewController_iPad.xib */,
+				C8696643164486EE00AA6219 /* Supporting Files */,
+			);
+			path = "Two Buttons";
+			sourceTree = "<group>";
+		};
+		C8696643164486EE00AA6219 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8696644164486EE00AA6219 /* Two Buttons-Info.plist */,
+				C8696645164486EF00AA6219 /* InfoPlist.strings */,
+				C8696648164486EF00AA6219 /* main.m */,
+				C869664A164486EF00AA6219 /* Two Buttons-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8696637164486EE00AA6219 /* Two Buttons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8696659164486EF00AA6219 /* Build configuration list for PBXNativeTarget "Two Buttons" */;
+			buildPhases = (
+				C8696634164486EE00AA6219 /* Sources */,
+				C8696635164486EE00AA6219 /* Frameworks */,
+				C8696636164486EE00AA6219 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Two Buttons";
+			productName = "Two Buttons";
+			productReference = C8696638164486EE00AA6219 /* Two Buttons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C869662F164486EE00AA6219 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Jessica Reinhardt";
+			};
+			buildConfigurationList = C8696632164486EE00AA6219 /* Build configuration list for PBXProject "Two Buttons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C869662D164486EE00AA6219;
+			productRefGroup = C8696639164486EE00AA6219 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8696637164486EE00AA6219 /* Two Buttons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8696636164486EE00AA6219 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8696647164486EF00AA6219 /* InfoPlist.strings in Resources */,
+				C8696653164486EF00AA6219 /* ViewController_iPhone.xib in Resources */,
+				C8696656164486EF00AA6219 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8696634164486EE00AA6219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8696649164486EF00AA6219 /* main.m in Sources */,
+				C869664D164486EF00AA6219 /* AppDelegate.m in Sources */,
+				C8696650164486EF00AA6219 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C8696645164486EF00AA6219 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8696646164486EF00AA6219 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C8696651164486EF00AA6219 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8696652164486EF00AA6219 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		C8696654164486EF00AA6219 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8696655164486EF00AA6219 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8696657164486EF00AA6219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8696658164486EF00AA6219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C869665A164486EF00AA6219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Two Buttons/Two Buttons-Prefix.pch";
+				INFOPLIST_FILE = "Two Buttons/Two Buttons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C869665B164486EF00AA6219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Two Buttons/Two Buttons-Prefix.pch";
+				INFOPLIST_FILE = "Two Buttons/Two Buttons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8696632164486EE00AA6219 /* Build configuration list for PBXProject "Two Buttons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8696657164486EF00AA6219 /* Debug */,
+				C8696658164486EF00AA6219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8696659164486EF00AA6219 /* Build configuration list for PBXNativeTarget "Two Buttons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C869665A164486EF00AA6219 /* Debug */,
+				C869665B164486EF00AA6219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C869662F164486EE00AA6219 /* Project object */;
+}
