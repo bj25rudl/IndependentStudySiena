@@ -10,4 +10,10 @@
 
 @interface ViewController : UIViewController
 
+
+
+- (IBAction)showAlertLeft;
+
+- (IBAction)showAlertRight;
+
 @end
