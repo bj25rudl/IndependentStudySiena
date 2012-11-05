@@ -48,7 +48,7 @@
     [[aString dataUsingEncoding:NSUTF8StringEncoding] writeToFile:fileAtPath atomically:NO];
     
 }
-
+/**
 - (IBAction)showAlertLeft
 {
     // Get current datetime
@@ -76,7 +76,7 @@
 
 
 }
-
+*/
 - (IBAction)showAlertRight
 {
     // Get current datetime
